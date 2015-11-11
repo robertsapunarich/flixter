@@ -38,6 +38,9 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # Include factory_girl_rails
 gem "factory_girl_rails", "~> 4.0"
 
+# Include devise for user authentication
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
