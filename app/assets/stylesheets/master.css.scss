@@ -51,3 +51,21 @@ body {
 	background: url('bg.jpg');
 	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
+
+.booyah-box {
+	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+	box-shadow: 1px 1px 2px 0 #d0d0d0;
+	background: #fff;
+	border: 1px sold #ccc;
+	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+	padding:10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+	margin:10px;
+}
+
+.clr {
+	clear:both;
+}

@@ -41,6 +41,9 @@ gem "factory_girl_rails", "~> 4.0"
 # Include devise for user authentication
 gem 'devise'
 
+# Include simple_form
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
