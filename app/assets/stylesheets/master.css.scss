@@ -70,3 +70,11 @@ body {
 .clr {
 	clear:both;
 }
+
+.has-error {
+	color: #ff3333;
+	background-color: #FFEEEE;
+	border-radius: 3px;
+	padding:8px;
+	margin:10px;
+}
