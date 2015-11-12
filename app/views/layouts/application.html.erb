@@ -30,7 +30,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>
-            <li><%= link_to 'Log out', destroy_user_session_path, method: delete %></li>
+            <li><%= link_to 'Log out', destroy_user_session_path %></li>
           <% else %>
             <li><%= link_to 'Log in', new_user_session_path %>
             <li><%= link_to 'Join Flixter!', new_user_registration_path %>
@@ -65,9 +65,9 @@
 
 <div id="footer">
   <div class="container">
-    <b>Footer Here</b>
+    <b>Teachers</b>
     <br />
-    <%= link_to 'Link', '#' %>
+    <%= link_to 'Teach a Course', new_instructor_course_path %>
   </div>
 </div>
 
