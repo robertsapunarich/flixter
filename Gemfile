@@ -44,6 +44,15 @@ gem 'devise'
 # Include simple_form
 gem 'simple_form'
 
+# Include CarrierWave
+gem 'carrierwave'
+
+# Include Figaro to secure config values
+gem "figaro"
+
+# Includ fog
+gem "fog", "~> 1.3.1"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
