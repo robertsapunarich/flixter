@@ -50,8 +50,11 @@ gem 'carrierwave'
 # Include Figaro to secure config values
 gem "figaro"
 
-# Includ fog
+# Include fog
 gem "fog", "~> 1.3.1"
+
+# Include MiniMagick
+gem 'mini_magick', '~> 4.3.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
