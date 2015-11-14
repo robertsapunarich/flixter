@@ -50,8 +50,8 @@ gem 'carrierwave'
 # Include Figaro to secure config values
 gem "figaro"
 
-# Include fog
-gem "fog", "~> 1.3.1"
+# Include carrierwave-aws instead of fog for performance reasons
+gem 'carrierwave-aws'
 
 # Include MiniMagick
 gem 'mini_magick', '~> 4.3.1'
