@@ -59,6 +59,9 @@ gem 'mini_magick', '~> 4.3.1'
 # Include stripe for payments processing
 gem 'stripe'
 
+# Include ranked-model
+gem 'ranked-model'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
