@@ -14,10 +14,6 @@ class LessonsControllerTest < ActionController::TestCase
     u = FactoryGirl.create(:user)
     sign_in u
     get :show, :id => l.id
-    if l.s.c.u.enrolled_in?(c)
-      assert_response :success
-    else
-      assert_redirected_to course_path(c)
-    end 
+    assert_redirected_to course_path(c)
   end
 end
