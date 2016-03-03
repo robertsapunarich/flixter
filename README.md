@@ -14,8 +14,9 @@ Flixter can be found in production [here](http://flixter-robert-sapunarich.herok
 
 **Contributors**
 
-Robert Sapunarich
-Your name here!
++ Robert Sapunarich
+
++ Your name here!
 
 **License**
 
