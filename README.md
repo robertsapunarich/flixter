@@ -3,6 +3,7 @@
 Flixter is a Udemy clone built by Robert Sapunarich as an assignment for theFirehoseProject. It's built with Rails 4.0.1, Postgresql, and Bootstrap-Sass.
 
 Flixter can be found in production [here](http://flixter-robert-sapunarich.herokuapp.com/).
+
 **Contributing**
 
 1. Fork the Flixter repository.
